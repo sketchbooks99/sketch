@@ -15,7 +15,7 @@ var text = 'Kiuchi',
 var font = null;
 var mirror = true;
 
-var targetRocation = 0;
+var targetRotation = 0;
 var targetRotationOnMouseDown = 0;
 
 var mouseX = 0;
