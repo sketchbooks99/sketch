@@ -50,7 +50,7 @@ function init() {
 
   var loader = new THREE.TTFLoader();
 
-  loader.load('../font/font.ttf', function(json) {
+  loader.load('font/font.ttf', function(json) {
     font = new THREE.Font(json);
     createText();
   });
@@ -64,7 +64,7 @@ function init() {
   scene.add(plane);
 
   // renderer
-  renderer = new THREE.WebGLRender({ antialias: true });
+  renderer = new THREE.WebGLRenderer({ antialias: true });
   renderer.setPixelRatio(window.devicePixelRatio);
   renderer.setSize(window.innerWidth, window.innerHeight);
   container.appendChild(renderer.domElement);
