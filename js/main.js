@@ -3,7 +3,7 @@ var camera, cameraTarget, scene, renderer;
 var group, textMesh1, textMesh2, textGeo, meterial;
 var firstLetter = true;
 
-var text = '木内舜司',
+var text = 'Kiuchi',
         height = 20,
         size = 70,
         hover = 30,
